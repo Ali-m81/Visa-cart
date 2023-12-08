@@ -1,26 +1,29 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
-    background-color:#150244;
+    background-color: #150244;
 }
-.transform{
+
+.transform {
     transform: rotateY(180deg);
     transition-duration: 3s;
 }
-.flex-c{
+
+.flex-c {
     display: flex;
     flex-direction: column;
 
 }
 
-.flex-r{
+.flex-r {
     display: flex;
     flex-direction: row;
 }
-#main-page{
-    
+
+#main-page {
+
     width: 36rem;
     height: 18rem;
     border-radius: 5px;
@@ -29,7 +32,8 @@ body{
     position: relative;
     align-items: center;
 }
-#cart{
+
+#cart {
     justify-content: center;
     align-items: center;
     width: 26rem;
@@ -37,22 +41,24 @@ body{
     border-radius: 5px;
     border: none;
     /* background-color: rgb(60, 101, 136); */
-    background: linear-gradient(to right , #0b8393 ,  #067367 30% ,#083f91);
+    background: linear-gradient(to right, #0b8393, #067367 30%, #083f91);
     position: absolute;
     left: 5rem;
     top: -4rem;
-    box-shadow: 0px 6px 15px  #c5c5c5;
+    box-shadow: 0px 6px 15px #c5c5c5;
     z-index: 3;
     cursor: pointer;
 }
-#w1{
+
+#w1 {
     width: 3rem;
     height: 2rem;
     position: absolute;
     left: 2rem;
-    
+
 }
-#cart2{
+
+#cart2 {
     justify-content: center;
     align-items: center;
     width: 26rem;
@@ -60,75 +66,86 @@ body{
     border-radius: 5px;
     border: none;
     /* background-color: rgb(60, 101, 136); */
-    background: linear-gradient(to right , #0b8393 ,  #067367 30% ,#083f91);
+    background: linear-gradient(to right, #0b8393, #067367 30%, #083f91);
     position: absolute;
     left: 5rem;
     top: -4rem;
-    box-shadow: 0px 6px 15px  #c5c5c5;
+    box-shadow: 0px 6px 15px #c5c5c5;
     z-index: 2;
     cursor: pointer;
     transform: rotatey(-180deg);
-    
+
 }
-#black-nav{
+
+#black-nav {
     display: flex;
     width: 26rem;
     height: 2rem;
     background-color: #121212;
     margin-top: 2rem;
-    
+
 }
-#cvv-show{
+
+#cvv-show {
     display: flex;
     width: 24rem;
     height: 2rem;
     background-color: #fff;
     margin-left: .3rem;
 }
-#div-cvv{
-    
+
+#div-cvv {
+
     justify-content: center;
     align-items: center;
 }
+
 /* #cvv2{
     margin-top: .5rem;
     
 } */
-#span-cv{
+#span-cv {
     font-size: 16px;
     width: 24rem;
     direction: rtl;
 }
-.visa-image{
+
+.visa-image {
     width: 6rem;
-   
+
 }
-.visa-icon{
+
+.visa-icon {
     margin-top: 1rem;
     direction: rtl;
     margin-right: .7rem;
     width: 25rem;
     position: relative;
 }
-.cart1{   
+
+.cart1 {
     transform: rotatey(180deg);
     transition-duration: 3s;
 }
-.cart2{   
+
+.cart2 {
     transform: rotatey(0deg) !important;
     transition-duration: 3s;
     z-index: 3 !important;
 }
-.cart3{   
+
+.cart3 {
     transform: rotatey(0deg);
     transition-duration: 3s;
 }
-.cart4{   
+
+.cart4 {
     transform: rotatey(180deg) !important;
     transition-duration: 3s;
     z-index: 2 !important;
 }
-input{
+
+input {
     width: 28rem;
     height: 1.8rem;
     border: solid 1px #1212;
@@ -136,24 +153,28 @@ input{
     border-radius: 1px;
     margin-bottom: 1rem;
     box-shadow: 6px 6px 12px #c5c5c5;
-    
+
 }
-input:focus{
-    border :double 1px  rgb(60, 101, 136);
+
+input:focus {
+    border: double 1px rgb(60, 101, 136);
 }
-#date-time{
+
+#date-time {
     width: 13rem;
     margin-right: .5rem;
 }
-#cvv2{
+
+#cvv2 {
     width: 13rem;
     margin-left: .5rem;
 }
-label{
+
+label {
     color: #a3a4a8;
 }
 
-button{
+button {
     width: 28rem;
     height: 1.8rem;
     display: flex;
@@ -164,10 +185,11 @@ button{
     overflow: hidden;
     z-index: 1;
     border-radius: 5px;
-   background-color: #2061d5;
-   color: #ffffff;
+    background-color: #2061d5;
+    color: #ffffff;
 }
-.btn::before{
+
+.btn::before {
     content: '';
     width: 0;
     height: 1.8rem;
@@ -175,18 +197,19 @@ button{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right , #0fd850 0% , #f9f047 100%);
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
     z-index: -1;
 }
-.btn:hover::before{
-    
+
+.btn:hover::before {
+
     transform: skewX();
     transition-duration: 1s;
-   
+
     width: 28rem;
 }
 
-#span-c{
+#span-c {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -196,23 +219,100 @@ button{
     border: double 1px #ffffff;
     color: #ffffff;
 }
-.f-c{
+
+.f-c {
     font-size: smaller;
     color: #fff;
 }
-.f-c2{
+
+.f-c2 {
     color: #fff;
 
 }
-.d-c{
+
+.d-c {
     justify-content: space-between;
 }
-.a-c{
+
+.a-c {
     width: 22rem;
 }
-.a-c2{
+
+.a-c2 {
     width: 22rem;
 }
-.art{
+
+.art {
     margin: 1rem 0;
+}
+
+@media (min-width :360px) and (max-width :660px) {
+    #main-page {
+        width: 24rem;
+
+    }
+
+    #cart {
+        width: 22rem;
+        margin-left: -4.3rem;
+    }
+
+    .visa-icon {
+        width: 22rem;
+    }
+
+    #cart2 {
+        width: 22rem;
+        margin-left: -4.3rem;
+    }
+
+    #black-nav {
+        width: 22rem;
+    }
+
+    #cvv-show {
+        width: 20rem;
+    }
+
+    #span-cv {
+        width: 21rem;
+    }
+
+    label {
+        color: #a3a4a8;
+        margin-left: 1rem;
+    }
+
+    input {
+        width: 22rem;
+        margin-left: 1rem;
+    }
+
+    #cvv2 {
+        width: 10rem;
+        margin-left: .5rem;
+    }
+
+    #date-time {
+        width: 10rem;
+        margin-right: .5rem;
+    }
+
+    button {
+        width: 17rem;
+    }
+
+    .a-c {
+        width: 19rem;
+        margin-left: 1rem;
+    }
+
+    .a-c2 {
+        width: 19rem;
+        margin-left: 1rem;
+    }
+
+    #span-c {
+        width: 19rem;
+    }
 }
